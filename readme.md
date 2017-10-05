@@ -50,6 +50,7 @@ These are topics owned and updated by AWS.
 
 | Name | Topic | Example |
 | ---- | ----- | ------- |
+| [Unreliable Town Clock](https://alestic.com/2015/05/aws-lambda-recurring-schedule/)| <ul><li>`arn:aws:sns:us-east-1:522480313337:unreliable-town-clock-topic-178F1OQACHTYF`</li><li>`arn:aws:sns:us-west-2:522480313337:unreliable-town-clock-topic-N4N94CWNOMTH`</li></ul> ||
 | [ADD SOMETHING](https://github.com/ranman/awesome-sns/edit/master/README.md) | | ||
 
 
