@@ -615,3 +615,40 @@
 }
 ```
 
+# Price List API
+
+```json
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:278350005181:price-list-api:b6dc2c01-c50a-43dd-ac75-b36bcb06a29b",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "3db593a2-5be7-5db0-8e5c-c13dac8cb9c0",
+        "TopicArn": "arn:aws:sns:us-east-1:278350005181:price-list-api",
+        "Subject": "[Pricing Update] New AWSConfig offer file available.",
+        "Message": {
+          "formatVersion": "v1.0",
+          "offerCode": "AWSConfig",
+          "version": "20171205010842",
+          "timeStamp": "2017-12-05T01:08:44Z",
+          "url": {
+            "JSON": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSConfig/current/index.json",
+            "CSV": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSConfig/current/index.csv"
+          },
+          "regionIndex": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSConfig/current/region_index.json",
+          "operation": "Publish"
+        },
+        "Timestamp": "2017-12-05T01:23:55.452Z",
+        "SignatureVersion": "1",
+        "Signature": "IJqowmQrEPAuO7wODctUMyX2H9wNljZ4vm7z13zaK5mFfE6hwxU4zuusuCh+wGHg6bBU6/cCAva+u36nUuERqpahtMPu+tzkftFslDVOQaOFqot2c1giKvlpeROdiJt7oKsrdoVL9rkykoQ0Efvhv9I6IchezfllTt7J+SW55WanUUbc6Ot2xokvWedyXtqTEfCrrViVNGew16LWIH5VcsKbryYiF93LHJ19xGBCRHO/LrgpYt4lOS5fgNA+1jqTsYG3kGdDZICjQFM1N6St8WD29AxYu9XxbC5r+MU8KFRD99ATSgMyYGWVb+NqFAifNYtOAJPCTerKLlQgeHrTVA==",
+        "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-433026a4050d206028891664da859041.pem",
+        "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:278350005181:price-list-api:b6dc2c01-c50a-43dd-ac75-b36bcb06a29b",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}
+```
