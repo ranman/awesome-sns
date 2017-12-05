@@ -652,3 +652,30 @@
   ]
 }
 ```
+
+# Daily Aggregated Price List API
+
+```json
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api:d4144657-7d47-4982-b1e4-ca5998cd6adb",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "5c604421-eec6-5490-84d0-16813dc15c3c",
+        "TopicArn": "arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api",
+        "Subject": "[AWS Pricing Update] We have published new versions of the service offer files.",
+        "Message": "Hello,\n\nYou have received this notification because you subscribed to receiving updates from SNS topic arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api\n\nWe have published a new version of the offer file for Service AWSConfig. Use the following URLs to download the file:\n - JSON Format : https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSConfig/current/index.json\n - CSV Format : https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSConfig/current/index.csv\n - Region Index Url : https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSConfig/current/region_index.json\n\nTo learn more about the file formats, see http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html.\n\nThank You,\nAmazon Web Services Team",
+        "Timestamp": "2017-12-05T17:00:55.397Z",
+        "SignatureVersion": "1",
+        "Signature": "KybgwfmRYd2vRYUPc8NBZBkiN167E2/xtpKVp1Skfh0PbvU0aVJm/Z3H0c/QZdL16w16I7v7YRdaKutTUhvRyQ2As7JycAUbMhopmckz2hz6IRvs40H0Csv3TCnGOvsaBCSeGfYq3u8MaBk0N8g93CczzZE3nChWESzrIPf5X0Hy15fm0tbD5wcxHttZGG4xsVbQ7zOy0PqdrD+FMgSNPFNcYY7bO6fPLm04TrwaxyZ2VKFVwAn3HxDa9SUukyR3EQrQ4I7x5sYD2iYrH6fWd8VM6fQulMg9qH4AfBlBxCEuFZiCurTY+sqFpREf0025vJUbpkNo52WFUZRHvaqOFQ==",
+        "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-433026a4050d206028891664da859041.pem",
+        "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api:d4144657-7d47-4982-b1e4-ca5998cd6adb",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}
+```
