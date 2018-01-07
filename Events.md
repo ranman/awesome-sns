@@ -679,3 +679,149 @@
   ]
 }
 ```
+
+# Windows AMI Update
+
+```json
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:801119661308:ec2-windows-ami-update:04269066-485b-4e5a-86cc-3d96f446d8ce",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "c83c6837-707d-5cb0-a737-3afca0539aa2",
+        "TopicArn": "arn:aws:sns:us-east-1:801119661308:ec2-windows-ami-update",
+        "Subject": "New AMIs dated 2018.01.05 now available",
+        "Message": "A new version of Amazon Machine Images has been released. All previous versions of Amazon published Windows AMIs will be deprecated on Monday, January 29th, 7AM (Pacific). Please use this time to update any dependencies such as CloudFormation or AutoScaling groups.\n\nEC2 Quickstart, AWS MarketPlace and CloudFormation templates will be updated over the next few days.\n\nNew AMIs are dated 2018.01.05. (search for this using the AWS Console or PowerShell ‘Get-EC2ImageByName’)\n\nChanges:\n• Microsoft Security Updates current to January 2018\n• Registry settings to enable the mitigations for the Spectre and Meltdown exploits\n• Updated .Net SDK/PowerShell Tools\n• Latest EC2Config\n• Cloud Formation\n\nReferences:\n\nEC2 Quickstart: https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:\nAWS Marketplace: https://aws.amazon.com/marketplace/seller-profile/ref=srh_res_product_vendor?ie=UTF8&id=e6a5002c-6dd0-4d1e-8196-0a1d1857229b\nWindows AMI Versions: http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/windows-ami-version-history.html\nPowershell in AWS: http://aws.amazon.com/powershell/\nCloudFormation: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html\nEC2Config Service: http://aws.amazon.com/developertools/5562082477397515\n\nRegards,\nAmazon EC2 for Windows Team",
+        "Timestamp": "2018-01-07T07:36:14.987Z",
+        "SignatureVersion": "1",
+        "Signature": "Kvoxjj22vMg3Ov/rxwghPkjNMNoRKCNhQTbHO6Pv3ec6chLq4fqhEKJSzS9k1I0hxvbZ56Eoh4IaeDhkIrpTJhSYzghK4dhO4UfdN3nR2Sm0stm4YzGTEemDtD12Wn6qSzKQmzk/0WqwLkzxw2YMBHi43uY4Q56RN31B8bWMZj7yUIfocKsB6OYumLsk14/on09K6vavUa/Pvt89awQUZRQ60LwBbVAKFTm5XZIsqqpSMPL6ftrByG8iYLrgSS853dPO2daBElYvoT2d7CNdcZOAh+KoIWlcxffN7os5Ri61oatepmfA1PiWjDdl0/czkcltsoeuFggapTCe82QzGw==",
+        "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-433026a4050d206028891664da859041.pem",
+        "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:801119661308:ec2-windows-ami-update:04269066-485b-4e5a-86cc-3d96f446d8ce",
+        "MessageAttributes": {
+          "AWS.SNS.MOBILE.MPNS.Type": {
+            "Type": "String",
+            "Value": "token"
+          },
+          "AWS.SNS.MOBILE.MPNS.NotificationClass": {
+            "Type": "String",
+            "Value": "realtime"
+          },
+          "AWS.SNS.MOBILE.WNS.Type": {
+            "Type": "String",
+            "Value": "wns/badge"
+          }
+        }
+      }
+    }
+  ]
+}
+```
+
+# ECS Optimized Windows AMI Update
+
+```json
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:177427601217:ecs-optimized-amazon-ami-update:6858e335-bc5b-4788-971e-4207f48728da",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "163ab552-da6f-596f-9437-e79a17ccfcd0",
+        "TopicArn": "arn:aws:sns:us-east-1:177427601217:ecs-optimized-amazon-ami-update",
+        "Subject": "None",
+        "Message": {
+          "ECSAgent": {
+            "ReleaseVersion": "1.16.1"
+          },
+          "ECSAmis": [
+            {
+              "ReleaseVersion": "2017.09.e",
+              "AgentVersion": "1.16.1",
+              "ReleaseNotes": "This AMI includes the latest ECS agent 1.16.1",
+              "OsType": "linux",
+              "OperatingSystemName": "Amazon Linux",
+              "Regions": {
+                "ap-northeast-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-af46dbc9"
+                },
+                "ap-northeast-2": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-d6f454b8"
+                },
+                "ap-south-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-c80b5fa7"
+                },
+                "ap-southeast-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-fec3b482"
+                },
+                "ap-southeast-2": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-b88e7cda"
+                },
+                "ca-central-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-e8cb4e8c"
+                },
+                "cn-north-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-f9a37e94"
+                },
+                "eu-central-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-b378e8dc"
+                },
+                "eu-west-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-7827b301"
+                },
+                "eu-west-2": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-acd5cdc8"
+                },
+                "eu-west-3": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-bd10a7c0"
+                },
+                "sa-east-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-ca95d6a6"
+                },
+                "us-east-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-13401669"
+                },
+                "us-east-2": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-901338f5"
+                },
+                "us-west-1": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-b3adacd3"
+                },
+                "us-west-2": {
+                  "Name": "amzn-ami-2017.09.e-amazon-ecs-optimized",
+                  "ImageId": "ami-9a02a9e2"
+                }
+              }
+            }
+          ]
+        },
+        "Timestamp": "2018-01-05T00:48:35.408Z",
+        "SignatureVersion": "1",
+        "Signature": "GLI53lDnjNxuMLLHy+dDlMlmYaToxbuke9eiLZvue9Wji7CQJBNmETVYqTDqCRdGLwKexEuPDD5L7OR1H8fC3sAKu3xNJ5VnkxKal0bvbu4SWPUQCddu4V701v2Wn9Cr+MBd4s5/7nwifIqFZ7A8speJZ9HO362pkU3ZT08DRzex0ZDq/5CHXVmFVmUWI0gfsWBS7a41H0KPOn9nUo74VYB7Cc1lLFDbWSGGMLZ75poIB4tx8BxS9TQI5ZrhNhZ7Q6X0XCUPyAeOEKhepFtn007xfZTxJwUpkdNHib/Ih98B9z4T6FTNDyx071o8meTH6cUZL7K5eJEE1i9l75Z6XA==",
+        "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-433026a4050d206028891664da859041.pem",
+        "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:177427601217:ecs-optimized-amazon-ami-update:6858e335-bc5b-4788-971e-4207f48728da",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}
+```
