@@ -825,3 +825,111 @@
   ]
 }
 ```
+
+## FreeBSD AMI Updates
+```json
+{
+  "v1": {
+    "ReleaseVersion": "12.0-STABLE",
+    "ImageVersion": "stable/12@344851",
+    "Regions": {
+      "eu-north-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-0a6869ad3d6921c7d"
+        }
+      ],
+      "ap-south-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-0f76aceff7f54c6e8"
+        }
+      ],
+      "eu-west-3": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-01dcd6c304996f18f"
+        }
+      ],
+      "eu-west-2": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-07da901ba53d8422b"
+        }
+      ],
+      "eu-west-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-0502401d86545cc2d"
+        }
+      ],
+      "ap-northeast-2": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-0a0ef1cb51d71145b"
+        }
+      ],
+      "ap-northeast-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-0c5a0c42f92950056"
+        }
+      ],
+      "sa-east-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-078798cad1405f495"
+        }
+      ],
+      "ca-central-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-0de550031ac4f5690"
+        }
+      ],
+      "ap-southeast-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-04604b06837b2ab9f"
+        }
+      ],
+      "ap-southeast-2": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-00f0b29dc3180d053"
+        }
+      ],
+      "eu-central-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-084aa43de7df2cd07"
+        }
+      ],
+      "us-east-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-00a0f38a76e32406d"
+        }
+      ],
+      "us-east-2": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-07ceed51c560a3977"
+        }
+      ],
+      "us-west-1": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-05d76275d27a7c5bf"
+        }
+      ],
+      "us-west-2": [
+        {
+          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
+          "ImageId": "ami-08bb85286254f9799"
+        }
+      ]
+    }
+  }
+}
+```
