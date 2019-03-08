@@ -53,6 +53,7 @@ These are topics owned and updated by AWS.
 | ---- | ----- | ------- |
 | [Unreliable Town Clock](https://alestic.com/2015/05/aws-lambda-recurring-schedule/)| <ul><li>`arn:aws:sns:us-east-1:522480313337:unreliable-town-clock-topic-178F1OQACHTYF`</li><li>`arn:aws:sns:us-west-2:522480313337:unreliable-town-clock-topic-N4N94CWNOMTH`</li></ul> |[Event](Events.md#unreliable-town-clock)|
 | [FreeBSD AMI Updates](https://www.freebsd.org/) | `arn:aws:sns:us-east-1:782442783595:FreeBSDAMI` | [Event](Events.md#freebsd-ami-updates) |
+| [New post on AWS What's New blog](https://aws.amazon.com/about-aws/whats-new/2019/) | `arn:aws:sns:us-west-2:955617200811:AWS-whats-new-feed` | [Event](Events.md#new-post-on-whats-new-blog) |
 | [ADD SOMETHING](https://github.com/ranman/awesome-sns/edit/master/README.md) | | ||
 
 
