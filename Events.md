@@ -933,3 +933,14 @@
   }
 }
 ```
+
+## New post on What's New blog
+
+```json
+{
+    "title": "AWS CodeCommit Supports VPC Endpoints",
+    "date": "2019-03-07T19:53:39",
+    "description": "You can now access AWS CodeCommit from your Amazon Virtual Private Cloud (Amazon VPC) using VPC endpoints. &nbsp;",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2019/03/aws-codecommit-supports-vpc-endpoints/"
+}
+```
