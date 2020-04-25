@@ -830,103 +830,126 @@
 ```json
 {
   "v1": {
-    "ReleaseVersion": "12.0-STABLE",
-    "ImageVersion": "stable/12@344851",
+    "ReleaseVersion": "12.1-STABLE",
+    "ImageVersion": "stable/12@359721",
     "Regions": {
       "eu-north-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-0a6869ad3d6921c7d"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0c9026fb1430fb964"
         }
       ],
       "ap-south-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-0f76aceff7f54c6e8"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-026a386a9a07f333d"
         }
       ],
       "eu-west-3": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-01dcd6c304996f18f"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0e380a6aef2779cb2"
         }
       ],
       "eu-west-2": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-07da901ba53d8422b"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-00565f668f1e256c6"
         }
       ],
       "eu-west-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-0502401d86545cc2d"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-026672494c9785811"
         }
       ],
       "ap-northeast-2": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-0a0ef1cb51d71145b"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0fe0d283973f681a5"
         }
       ],
       "ap-northeast-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-0c5a0c42f92950056"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0c7d805d429ad174b"
         }
       ],
       "sa-east-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-078798cad1405f495"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-048a8f6a5802a05d4"
         }
       ],
       "ca-central-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-0de550031ac4f5690"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0fe8b29626948a2e2"
+        }
+      ],
+      "ap-east-1": [
+        {
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0e2f7f202ea54a809"
         }
       ],
       "ap-southeast-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-04604b06837b2ab9f"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-00af1fa716cc8014d"
         }
       ],
       "ap-southeast-2": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-00f0b29dc3180d053"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0855baa38c3a1fc55"
         }
       ],
       "eu-central-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-084aa43de7df2cd07"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0deb1a0ed6415473e"
         }
       ],
       "us-east-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-00a0f38a76e32406d"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-00b2f5724fe65bf9d"
         }
       ],
       "us-east-2": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-07ceed51c560a3977"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0596badf8e2f106b7"
         }
       ],
       "us-west-1": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-05d76275d27a7c5bf"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-03763231e27835f38"
         }
       ],
       "us-west-2": [
         {
-          "Name": "FreeBSD 12.0-STABLE-amd64-2019-03-07",
-          "ImageId": "ami-08bb85286254f9799"
+          "Name": "FreeBSD 12.1-STABLE-arm64-2020-04-09",
+          "Architecture": "arm64",
+          "ImageId": "ami-0003334bd58102bb5"
         }
       ]
     }
