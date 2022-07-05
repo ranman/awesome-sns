@@ -31,6 +31,7 @@ These are topics owned and updated by AWS.
 | ---- | ----- | ------- |
 |[Amazon Linux AMI Updates](https://aws.amazon.com/amazon-linux-ami/) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-ami-updates` |[Event](Events.md#amazon-linux-ami-updates)|
 |[Amazon Linux 2 AMI Updates](https://aws.amazon.com/amazon-linux-2/) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-2-ami-updates` ||
+|[Amazon Linux 2022 AMI Updates](https://docs.aws.amazon.com/linux/index.html) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-2022-ami-updates` ||
 |[EC2 Windows AMI Updates](http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/windows-ami-version-history.html)| `arn:aws:sns:us-east-1:801119661308:ec2-windows-ami-update`| [Event](Events.md#windows-ami-update)|
 |[EC2 Windows AMI Deletes](http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/windows-ami-version-history.html)| `arn:aws:sns:us-east-1:801119661308:ec2-windows-ami-private`||
 |[ECS Optimized AMI Updates](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS-AMI-SubscribeTopic.html)| `arn:aws:sns:us-east-1:177427601217:ecs-optimized-amazon-ami-update`| [Event](Events.md#ecs-optimized-windows-ami-update)||
