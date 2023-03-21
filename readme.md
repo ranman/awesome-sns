@@ -25,6 +25,7 @@ These are topics owned and updated by AWS.
 |[IP Ranges](http://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html)| `arn:aws:sns:us-east-1:806199016981:AmazonIpSpaceChanged`| [Event](Events.md#amazon-ip-space-changed)|
 | [Price Change SNS](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html)| `arn:aws:sns:us-east-1:278350005181:price-list-api`|  [Event](Events.md#price-list-api) |
 | [Daily Aggregated Price Change SNS](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html)| `arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api`| [Event](Events.md#daily-aggregated-price-list-api) ||
+| [AWS Daily Feature Updates](https://aws.amazon.com/blogs/aws/subscribe-to-aws-daily-feature-updates-via-amazon-sns/) | `arn:aws:sns:us-east-1:692768080016:aws-new-feature-updates` | [Event](Events.md#aws-daily-feature-updates) |
 
 ### AMI Topics
 | Name | Topic | Example |
@@ -55,7 +56,6 @@ These are topics owned and updated by AWS.
 | [Unreliable Town Clock](https://alestic.com/2015/05/aws-lambda-recurring-schedule/)| <ul><li>`arn:aws:sns:us-east-1:522480313337:unreliable-town-clock-topic-178F1OQACHTYF`</li><li>`arn:aws:sns:us-west-2:522480313337:unreliable-town-clock-topic-N4N94CWNOMTH`</li></ul> |[Event](Events.md#unreliable-town-clock)|
 | [FreeBSD AMI Updates](https://www.freebsd.org/) | `arn:aws:sns:us-east-1:782442783595:FreeBSDAMI` | [Event](Events.md#freebsd-ami-updates) |
 | [New post on AWS What's New blog](https://aws.amazon.com/about-aws/whats-new/2019/) | `arn:aws:sns:us-west-2:955617200811:AWS-whats-new-feed` | [Event](Events.md#new-post-on-whats-new-blog) |
-| [AWS Daily Feature Updates](https://aws.amazon.com/blogs/aws/subscribe-to-aws-daily-feature-updates-via-amazon-sns/) | `arn:aws:sns:us-east-1:692768080016:aws-new-feature-updates` | [Event](Events.md#aws-daily-feature-updates) |
 | [ADD SOMETHING](https://github.com/ranman/awesome-sns/edit/master/README.md) | | ||
 
 
