@@ -31,7 +31,7 @@ These are topics owned and updated by AWS.
 | ---- | ----- | ------- |
 |[Amazon Linux AMI Updates](https://aws.amazon.com/amazon-linux-ami/) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-ami-updates` |[Event](Events.md#amazon-linux-ami-updates)|
 |[Amazon Linux 2 AMI Updates](https://aws.amazon.com/amazon-linux-2/) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-2-ami-updates` ||
-|[Amazon Linux 2022 AMI Updates](https://docs.aws.amazon.com/linux/index.html) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-2022-ami-updates` ||
+|[Amazon Linux 2023 AMI Updates](https://docs.aws.amazon.com/linux/al2023/ug/receive-update-notification.html) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-2023-ami-updates` ||
 |[EC2 Windows AMI Updates](http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/windows-ami-version-history.html)| `arn:aws:sns:us-east-1:801119661308:ec2-windows-ami-update`| [Event](Events.md#windows-ami-update)|
 |[EC2 Windows AMI Deletes](http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/windows-ami-version-history.html)| `arn:aws:sns:us-east-1:801119661308:ec2-windows-ami-private`||
 |[ECS Optimized AMI Updates](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS-AMI-SubscribeTopic.html)| `arn:aws:sns:us-east-1:177427601217:ecs-optimized-amazon-ami-update`| [Event](Events.md#ecs-optimized-windows-ami-update)||
@@ -55,6 +55,7 @@ These are topics owned and updated by AWS.
 | [Unreliable Town Clock](https://alestic.com/2015/05/aws-lambda-recurring-schedule/)| <ul><li>`arn:aws:sns:us-east-1:522480313337:unreliable-town-clock-topic-178F1OQACHTYF`</li><li>`arn:aws:sns:us-west-2:522480313337:unreliable-town-clock-topic-N4N94CWNOMTH`</li></ul> |[Event](Events.md#unreliable-town-clock)|
 | [FreeBSD AMI Updates](https://www.freebsd.org/) | `arn:aws:sns:us-east-1:782442783595:FreeBSDAMI` | [Event](Events.md#freebsd-ami-updates) |
 | [New post on AWS What's New blog](https://aws.amazon.com/about-aws/whats-new/2019/) | `arn:aws:sns:us-west-2:955617200811:AWS-whats-new-feed` | [Event](Events.md#new-post-on-whats-new-blog) |
+| [AWS Daily Feature Updates](https://aws.amazon.com/blogs/aws/subscribe-to-aws-daily-feature-updates-via-amazon-sns/) | `arn:aws:sns:us-east-1:692768080016:aws-new-feature-updates` | [Event](Events.md#aws-daily-feature-updates) |
 | [ADD SOMETHING](https://github.com/ranman/awesome-sns/edit/master/README.md) | | ||
 
 

@@ -967,3 +967,28 @@
     "link": "https://aws.amazon.com/about-aws/whats-new/2019/03/aws-codecommit-supports-vpc-endpoints/"
 }
 ```
+## AWS Daily Feature Updates
+
+```json
+{
+    "NEW_awscli_1.27.91_updates": [
+        "* api-change:``application-autoscaling``: Application Auto Scaling customers can now use mathematical functions to customize the metric used with Target Tracking policies within the policy configuration itself, saving the cost and effort of publishing the customizations as a separate metric.",
+        "* api-change:``dataexchange``: This release enables data providers to license direct access to S3 objects encrypted with Customer Managed Keys (CMK) in AWS KMS through AWS Data Exchange. Subscribers can use these keys to decrypt, then use the encrypted S3 objects shared with them, without creating or managing copies.",
+        "* api-change:``directconnect``: describe-direct-connect-gateway-associations includes a new status, updating, indicating that the association is currently in-process of updating.",
+        "* api-change:``ec2``: This release adds a new DnsOptions key (PrivateDnsOnlyForInboundResolverEndpoint) to CreateVpcEndpoint and ModifyVpcEndpoint APIs.",
+        "* api-change:``iam``: Documentation only updates to correct customer-reported issues",
+        "* api-change:``keyspaces``: Adding support for client-side timestamps"
+    ],
+    "NEW_AWS_Tools_for_Powershell": {
+        "old_version": " 4.1.290 (2023-03-13 21:04Z)",
+        "new_version": " 4.1.291 (2023-03-14 21:12Z)",
+        "change_log": "https://raw.githubusercontent.com/aws/aws-tools-for-powershell/master/CHANGELOG.md"
+    },
+    "NEW_aws_sdk_net": {
+        "old_version": "3.7.502.0 (2023-03-13 18:23 UTC)",
+        "new_version": "3.7.503.0 (2023-03-14 18:29 UTC)",
+        "change_log": "https://raw.githubusercontent.com/aws/aws-sdk-net/master/SDK.CHANGELOG.md"
+    },
+    "DATE": "2023-03-15-1015"
+}
+```
