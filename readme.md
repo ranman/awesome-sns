@@ -25,13 +25,14 @@ These are topics owned and updated by AWS.
 |[IP Ranges](http://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html)| `arn:aws:sns:us-east-1:806199016981:AmazonIpSpaceChanged`| [Event](Events.md#amazon-ip-space-changed)|
 | [Price Change SNS](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html)| `arn:aws:sns:us-east-1:278350005181:price-list-api`|  [Event](Events.md#price-list-api) |
 | [Daily Aggregated Price Change SNS](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html)| `arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api`| [Event](Events.md#daily-aggregated-price-list-api) ||
+| [AWS Daily Feature Updates](https://aws.amazon.com/blogs/aws/subscribe-to-aws-daily-feature-updates-via-amazon-sns/) | `arn:aws:sns:us-east-1:692768080016:aws-new-feature-updates` | [Event](Events.md#aws-daily-feature-updates) |
 
 ### AMI Topics
 | Name | Topic | Example |
 | ---- | ----- | ------- |
 |[Amazon Linux AMI Updates](https://aws.amazon.com/amazon-linux-ami/) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-ami-updates` |[Event](Events.md#amazon-linux-ami-updates)|
 |[Amazon Linux 2 AMI Updates](https://aws.amazon.com/amazon-linux-2/) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-2-ami-updates` ||
-|[Amazon Linux 2022 AMI Updates](https://docs.aws.amazon.com/linux/index.html) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-2022-ami-updates` ||
+|[Amazon Linux 2023 AMI Updates](https://docs.aws.amazon.com/linux/al2023/ug/receive-update-notification.html) | `arn:aws:sns:us-east-1:137112412989:amazon-linux-2023-ami-updates` ||
 |[EC2 Windows AMI Updates](http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/windows-ami-version-history.html)| `arn:aws:sns:us-east-1:801119661308:ec2-windows-ami-update`| [Event](Events.md#windows-ami-update)|
 |[EC2 Windows AMI Deletes](http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/windows-ami-version-history.html)| `arn:aws:sns:us-east-1:801119661308:ec2-windows-ami-private`||
 |[ECS Optimized AMI Updates](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS-AMI-SubscribeTopic.html)| `arn:aws:sns:us-east-1:177427601217:ecs-optimized-amazon-ami-update`| [Event](Events.md#ecs-optimized-windows-ami-update)||
