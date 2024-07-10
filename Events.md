@@ -992,3 +992,14 @@
     "DATE": "2023-03-15-1015"
 }
 ```
+
+## Atlassian IP addresses
+
+```json
+{
+    "creationDate":"yyyy-mm-ddThh:mm:ss.mmmmmm",
+    "syncToken":"1659489769",
+    "md5":"6a45316e8bc9463c9e926d5d37836d33",
+    "url":"https://ip-ranges.atlassian.com/"
+}
+```
